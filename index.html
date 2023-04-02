@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>THE ROCK, PAPER, SCISSOR GAME!</h1>
+        <div class="namingsection" id="namingSection">
+            <label class="entername" id="nameIntro">Please Enter Your Name:</label><br>
+            <div class="innernaming">
+                <input id="nameInput" type="text">
+                <button id="nameButton">That's Me</button>
+            </div>
+        </div>
+
+        <div class="introsection" id="introSection">
+            <label id="introduction"></label>
+            <button id="introButton">Bring It On!</button>
+        </div>
+        <div id="gameplaySection">
+            <div class="allcounters">
+                <div class="counter">
+                    <p>Computer</p>
+                    <label id="computerCounter">0</label>
+                </div>
+                <div class="counter">
+                    <p id="playerName">Someone</p>
+                    <label id="playerCounter">0</label>
+                </div>
+            </div>
+            <label id="outcomeInfo"></label>    
+            <label id="gameInfo">Game Number:1. Rock Paper Scissor Shoot</label>
+            <div class="gamebuttons">
+                <button id="rockButton">Rock</button>
+                <button id="paperButton">Paper</button>
+                <button id="scissorButton">Scissor</button>
+            </div>
+            </div>
+        </div>
+        <div id="finalResult">
+            <div class="allcounters">
+                <div class="counter">
+                    <p>Computer</p>
+                    <label id="computerCounter2">0</label>
+                </div>
+                <div class="counter">
+                    <p id="playerName2">Someone</p>
+                    <label id="playerCounter2">0</label>
+                </div>
+            </div>
+            <label id="resultInfo"></label>
+            <button id="playAgainButton">Play Again</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
